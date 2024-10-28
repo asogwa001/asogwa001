@@ -76,7 +76,7 @@ const ProjectsTab = () => {
           </div>
 
           {/* Add Project Hint */}
-          {!sidebarCollapsed && (
+          {/* {!sidebarCollapsed && (
             <div className="absolute bottom-0 left-0 right-0 p-4 bg-slate-50 border-t border-slate-200">
               <div className="flex items-center text-xs text-slate-500">
                 <Plus size={14} className="mr-2" />
@@ -86,7 +86,7 @@ const ProjectsTab = () => {
                 </div>
               </div>
             </div>
-          )}
+          )} */}
         </div>
 
         {/* Main Content Area */}

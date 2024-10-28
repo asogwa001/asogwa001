@@ -38,7 +38,7 @@ function App() {
               }`}
             >
               <FolderOpen size={20} />
-              <span>Projects</span>
+              <span>Directory</span>
             </button>
           </div>
         </nav>
