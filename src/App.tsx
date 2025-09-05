@@ -11,8 +11,8 @@ function App() {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         {/* Header */}
         <header className="mb-8">
-          <h1 className="text-4xl font-bold text-slate-800 mb-2">Portfolio</h1>
-          <p className="text-slate-600">Welcome to my digital space</p>
+          <h1 className="text-4xl font-bold text-slate-800 mb-2">Hi!</h1>
+          <p className="text-slate-600">Here be some cool stuff.</p>
         </header>
 
         {/* Tab Navigation */}
