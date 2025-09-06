@@ -5,8 +5,8 @@ import type { ProjectComponent } from '../types/project';
 const InternedStrings: ProjectComponent = () => {
   const projectData = {
     title: 'ISTR',
-    description: 'Efficient, zero deps implementation of interned string system in C. Very similar to microythons qstr system (some parts of the string pooling code were poached from it) but standalone. ',
-    technologies: ['C', 'C++', 'Memory Management'],
+    description: 'Efficient, zero deps implementation of interned string I use in my embedded projects. Very similar to microythons qstr system (some parts of the string pooling code were poached from it actually) but standalone. ',
+    technologies: ['C', 'Interned Strings', 'Embedded Systems'],
     status: 'in-progress' as const,
     demoUrl: '',
     githubUrl: '',
