@@ -4,7 +4,7 @@ import type { ProjectComponent } from '../types/project';
 
 const CtcController: ProjectComponent = () => {
   const projectData = {
-    title: 'Computed Torque Controller',
+    title: 'Simscape Multibody model of a controller that drives a two-link planar flexible underactuated robot manipulator in cartesian space. ',
     description: 'A real-time torque control application using advanced algorithms and React.',
     technologies: ['React', 'TensorFlow.js', 'WebRTC'],
     status: 'in-progress' as const,
@@ -15,13 +15,10 @@ const CtcController: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time torque control',
-      'Advanced motion tracking',
-      'Predictive maintenance alerts',
-      'User-friendly interface',
-      'Customizable control algorithms',
-      'WebRTC video streaming',
-      'Responsive design for all devices'
+      'Written in Simulink and MATLAB',
+      'User interface for running (.mlapp)',
+      'Includes some scripts for tuning dynamic parameters (may not find optimals though)',
+      'Open source',
     ],
     challenges: [
     ],
@@ -154,6 +151,6 @@ const CtcController: ProjectComponent = () => {
 
 // Add required static properties
 CtcController.title = 'Computed Torque Controller';
-CtcController.description = 'Model-based control for a flexible underactuated controller.';
+CtcController.description = 'For a flexible underactuated robot.';
 
 export default CtcController;
