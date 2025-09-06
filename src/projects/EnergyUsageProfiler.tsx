@@ -4,9 +4,9 @@ import type { ProjectComponent } from '../types/project';
 
 const EnergyUsageProfiler: ProjectComponent = () => {
   const projectData = {
-    title: 'Energy Usage Profiler',
-    description: 'A web application for monitoring and analyzing household energy consumption in real-time.',
-    technologies: ['React', 'Node.js', 'D3.js', 'WebSocket'],
+    title: 'Anomaly Detection 1',
+    description: 'Uses a hybrid machine learning model (CNN + {RF, LSTM, SVM}) to analyse household electricity usage and flag anomalies. CNN is used as a feature extractor while the downstream model does the classification.',
+    technologies: ['Deep Learning', 'Machine Learning', 'Analytics', 'Data science'],
     status: 'in-progress' as const,
     demoUrl: '#',
     githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
@@ -15,13 +15,8 @@ const EnergyUsageProfiler: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time energy monitoring',
-      'Detailed energy consumption analytics',
-      'User-friendly dashboard',
-      'Customizable alerts and notifications',
-      'Integration with smart home devices',
-      'Data visualization with D3.js',
-      'Responsive design for all devices'
+      'Trained on Low Carbon London project (UKPN Innovation, 2010) dataset',
+      'Open source'
     ],
     challenges: [
     ],
@@ -152,7 +147,7 @@ const EnergyUsageProfiler: ProjectComponent = () => {
 };
 
 // Add required static properties
-EnergyUsageProfiler.title = 'Energy Usage Profiler';
-EnergyUsageProfiler.description = 'A web application for monitoring and analyzing energy consumption in real-time.';
+EnergyUsageProfiler.title = 'Anomaly Detection 1';
+EnergyUsageProfiler.description = 'Energy usage profiling';
 
 export default EnergyUsageProfiler;
