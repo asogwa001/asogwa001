@@ -5,9 +5,9 @@ import type { ProjectComponent } from '../types/project';
 const YOLO11Cam: ProjectComponent = () => {
   const projectData = {
     title: 'YOLOv11 Cam',
-    description: 'A real-time object detection camera application using YOLOv11 and React.',
-    technologies: ['React', 'TensorFlow.js', 'YOLOv11', 'WebRTC'],
-    status: 'in-progress' as const,
+    description: 'Implementation of harmful object detection pipeline initially using a YOLOv11n (finetuned on a custom dataset) for inference and later extended to support VLMs (small ones like googles gemma performs unexpectedly well at this task). Can run entirely on the edge.',
+    technologies: ['YOLOv11', 'Computer Vision', 'Google Gemma', 'VLMs', 'Finetuning', 'Analytics'],
+    status: 'completed' as const,
     demoUrl: '',
     githubUrl: '',
     images: [
@@ -15,13 +15,10 @@ const YOLO11Cam: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time object detection',
-      'Face detection and recognition',
-      'Motion tracking',
-      'Image classification',
-      'Custom model training',
-      'WebRTC video streaming',
-      'Responsive design for all devices'
+      'Tested on pi-5', 
+      'Multi-inferencing backends (YOLOv11 runs at 5fps, VLM starts at 10fps)',
+      'Bundles an alerting system (sms or telegram) and analytics dashboard', 
+      'Fully open source, finetuning notebooks are included so you can customize'
     ],
     challenges: [
     ],
@@ -163,6 +160,6 @@ const YOLO11Cam: ProjectComponent = () => {
 
 // Add required static properties
 YOLO11Cam.title = 'YOLOv11 Cam';
-YOLO11Cam.description = 'A real-time object detection camera application using YOLOv11 and React.';
+YOLO11Cam.description = 'Object detection using YOLOv11 and VLMs.';
 
 export default YOLO11Cam;
