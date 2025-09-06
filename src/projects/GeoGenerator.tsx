@@ -5,8 +5,8 @@ import type { ProjectComponent } from '../types/project';
 const GeoGenerator: ProjectComponent = () => {
   const projectData = {
     title: 'GeoGenerator',
-    description: 'Generates geometry problems rendered using Tikz',
-    technologies: ['React', 'TensorFlow.js', 'YOLOv11', 'WebRTC'],
+    description: 'GeoGenerator is like MASM but for geometry problems. Uses contrained templates written in latex to generate various kinds of geometry problems rendered in Tikz',
+    technologies: ['Tikz', 'Mathematics', 'Geometry', 'LLMs'],
     status: 'in-progress' as const,
     demoUrl: '',
     githubUrl: '',
@@ -19,8 +19,6 @@ const GeoGenerator: ProjectComponent = () => {
       'Customizable problem parameters',
       'Multiple choice and open-ended questions',
       'Export to PDF and LaTeX',
-      'User-friendly interface',
-      'Responsive design for all devices'
     ],
     challenges: [
     ],
@@ -162,6 +160,6 @@ const GeoGenerator: ProjectComponent = () => {
 
 // Add required static properties
 GeoGenerator.title = 'GeoGenerator';
-GeoGenerator.description = 'Generates geometry problems rendered using Tikz.';
+GeoGenerator.description = 'Generates geometry problems';
 
 export default GeoGenerator;
