@@ -4,9 +4,9 @@ import type { ProjectComponent } from '../types/project';
 
 const CtcController: ProjectComponent = () => {
   const projectData = {
-    title: 'Simscape Multibody model of a controller that drives a two-link planar flexible underactuated robot manipulator in cartesian space. ',
-    description: 'A real-time torque control application using advanced algorithms and React.',
-    technologies: ['React', 'TensorFlow.js', 'WebRTC'],
+    title: 'Computed Torque Controller',
+    description: 'Simscape Multibody model of a two loop computed torque controller that drives a two-link planar flexible underactuated robot manipulator in cartesian space. The outer loop computes the requires link torques while the translates the link torques into desired motor motor positions (both loops use PD control law)  ',
+    technologies: ['Robotics', 'Manipulator', '.mlapp', 'Simscape Multibody', 'MATLAB', 'Simulink'],
     status: 'in-progress' as const,
     demoUrl: '#',
     githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
