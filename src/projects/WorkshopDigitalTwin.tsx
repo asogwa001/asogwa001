@@ -4,10 +4,10 @@ import type { ProjectComponent } from '../types/project';
 
 const WorkshopDigitalTwin: ProjectComponent = () => {
   const projectData = {
-    title: 'Workshop Digital Twin',
-    description: 'A digital twin of a machining workshop to track energy consumption',
-    technologies: ['React', 'Node.js', 'WebSocket', 'TensorFlow.js'],
-    status: 'in-progress' as const,
+    title: 'Anomaly Detection 2',
+    description: 'Implements a digital twin of a machining workshop to track energy consumption. Includes mathematical models for turning, grinding, deburring, and milling processes.',
+    technologies: ['Simulink', 'MATLAB', 'AWS', 'Dashboarding', 'Graphana', 'Digital Twins', 'Workshops'],
+    status: 'completed' as const,
     demoUrl: '',
     githubUrl: '',
     images: [
@@ -15,13 +15,9 @@ const WorkshopDigitalTwin: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time object detection',
-      'Face detection and recognition',
-      'Motion tracking',
-      'Image classification',
-      'Custom model training',
-      'WebRTC video streaming',
-      'Responsive design for all devices'
+      'Source is proprietary',
+      'Model can be made available on request',
+      'Grafana-based analytical dashboard for KPIs'
     ],
     challenges: [
     ],
@@ -162,7 +158,7 @@ const WorkshopDigitalTwin: ProjectComponent = () => {
 };
 
 // Add required static properties
-WorkshopDigitalTwin.title = 'Workshop Digital Twin';
-WorkshopDigitalTwin.description = 'A digital twin application for real-time monitoring and simulation of industrial machines.';
+WorkshopDigitalTwin.title = 'Anomaly Detection 2';
+WorkshopDigitalTwin.description = 'Workshop Digital Twin';
 
 export default WorkshopDigitalTwin;
