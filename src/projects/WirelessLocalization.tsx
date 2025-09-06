@@ -4,10 +4,10 @@ import type { ProjectComponent } from '../types/project';
 
 const WirelessLocalization: ProjectComponent = () => {
   const projectData = {
-    title: 'Wireless Localization System',
-    description: 'A system for real-time localization using RSSI fingerprinting.',
-    technologies: ['React', 'Node.js', 'WebSocket', 'TensorFlow.js'],
-    status: 'in-progress' as const,
+    title: 'Wireless Localization',
+    description: 'Builds a map of an indoor area by computing the RSSI fingerprints of wifi signals of each cell in an m x n grid overlayed on the floorpan. A support vector network ingests the table and can then infer the location of person in the calibrated space based on their current RSSI fingerprint. Was my undergraduate capstone project I ',
+    technologies: ['Indoor Positioning', 'Embedded systems', 'RSSI Fingerprinting', 'Internet of Things'],
+    status: 'completed' as const,
     demoUrl: '',
     githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
     images: [
@@ -15,13 +15,10 @@ const WirelessLocalization: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time localization',
-      'RSSI fingerprinting',
-      'Device tracking',
-      'WebSocket communication',
-      'Custom model training',
-      'WebRTC video streaming',
-      'Responsive design for all devices'
+      'Includes a tool for calibrating the deployment area and firmware for bootstrapping the system on an ESP32. ',
+      'See more details in my publication in IEEE Xplore',
+      'Can achieve room level accuracy in typical indoor environments',
+      'Open source'
     ],
     challenges: [
     ],
@@ -152,7 +149,7 @@ const WirelessLocalization: ProjectComponent = () => {
 };
 
 // Add required static properties
-WirelessLocalization.title = 'Wireless Localization System';
-WirelessLocalization.description = 'A real-time localization system using RSSI fingerprinting.';
+WirelessLocalization.title = 'Wireless Localization';
+WirelessLocalization.description = 'Indoor positioning system';
 
 export default WirelessLocalization;
