@@ -25,3 +25,8 @@ dist-ssr
 .env
 
 *.ps1
+
+src/projects/EcommerceApp.tsx
+src/projects/ChatApplication.tsx
+src/projects/TaskManager.tsx
+src/projects/WeatherDashboard.tsx
