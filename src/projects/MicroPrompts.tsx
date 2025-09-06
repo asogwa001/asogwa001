@@ -5,9 +5,9 @@ import type { ProjectComponent } from '../types/project';
 const MicroPrompts: ProjectComponent = () => {
   const projectData = {
     title: 'Micro Prompts',
-    description: 'Prompting library for embedded systems',
+    description: 'Implements openais chat completions and googles gemini api and can also handle files (video, audio, etc) if you have a large flash budget. Install from the Arduino library.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
-    status: 'in-progress' as const,
+    status: 'completed' as const,
     demoUrl: '',
     githubUrl: '#',
     images: [
@@ -15,13 +15,10 @@ const MicroPrompts: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time object detection',
-      'Face detection and recognition',
-      'Motion tracking',
-      'Image classification',
-      'Custom model training',
-      'WebRTC video streaming',
-      'Responsive design for all devices'
+      'Platform independent (mostly)',
+      'Avaible in the Arduino library system and as an ESP-IDF component.',
+      'Extending to other platforms is trivial',
+      'Open source'
     ],
     challenges: [
     ],
