@@ -5,8 +5,8 @@ import type { ProjectComponent } from '../types/project';
 const uCoreOS: ProjectComponent = () => {
   const projectData = {
     title: 'μcore OS',
-    description: 'A lightweight microkernel operating system designed for embedded devices.',
-    technologies: ['Rust', 'Embedded Systems', 'Microkernel'],
+    description: 'μcore is firmware for microcontrollers that implements a jupyter kernel around the micropthon interpreter and programmed using a custom, AI-first fork of jupyter notebook project. I am currently developing it as a hobby project with my friends. It is our hope notebooks will make embedded programming more accessible someday. ',
+    technologies: ['C', 'Embedded Systems', 'Micropython Project', 'Kernels', 'Jupter Notebooks'],
     status: 'in-progress' as const,
     demoUrl: '',
     githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
@@ -15,20 +15,18 @@ const uCoreOS: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Microkernel architecture',
-      'Real-time scheduling',
-      'Inter-process communication',
-      'Device driver support',
-      'Lightweight and efficient',
-      'Modular design',
-      'Responsive design for all devices'
+      'Extremely lightweight',
+      'Supported chips: ESP32, STM32',
+      'Runs locally and can be cloud hosted',
+      '80%+ jupyter messaging protocol coverage',
+      'Some components of the project are fully open source'
     ],
     challenges: [
     ],
     learnings: [
     ],
     startDate: 'January 2024',
-    endDate: 'March 2024'
+    endDate: 'inf'
   };
 
   return (
@@ -153,6 +151,6 @@ const uCoreOS: ProjectComponent = () => {
 
 // Add required static properties
 uCoreOS.title = 'μcore OS';
-uCoreOS.description = 'A lightweight microkernel operating system designed for embedded devices.';
+uCoreOS.description = 'Jupyter kernels comes to embedded';
 
 export default uCoreOS;
