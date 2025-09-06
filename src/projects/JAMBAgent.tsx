@@ -5,9 +5,9 @@ import type { ProjectComponent } from '../types/project';
 const JAMBAgent: ProjectComponent = () => {
   const projectData = {
     title: 'EDU.ai',
-    description: 'Concept AI Agent that can generate model questions and answers of Nigerian national exams.',
-    technologies: ['React', 'TensorFlow.js', 'YOLOv11', 'WebRTC'],
-    status: 'in-progress' as const,
+    description: 'Concept AI Agent that you can use to prepare for exams. Can regurgitate past questions with solutions and generate model questions and answers of various Nigerian national exams. It really is just a chat completions endpoint enhanced with function calling access to my MCP server that can do semantic search over a 100k+ past questions dataset (waec, neco, jamb) I found on the internet (thank you vibecoders).',
+    technologies: ['onnx', 'TensorFlow.js', 'Chat Completions', 'LLMs', 'Model Context Protocol', 'FAISS'],
+    status: 'completed' as const,
     demoUrl: '',
     githubUrl: '',
     images: [
@@ -15,13 +15,12 @@ const JAMBAgent: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time object detection',
-      'Face detection and recognition',
-      'Motion tracking',
-      'Image classification',
-      'Custom model training',
-      'WebRTC video streaming',
-      'Responsive design for all devices'
+      'BYOK',
+      'Plug and play: just redirect your llm ui to my chat completions',
+      'MCP server can do retrival and semantic searching',
+      'Bert and faiss for embeddings, onnx runtime ',
+      'Low resource, can be packaged to run entirely on edge',
+      'Project is open source although embeddings and dataset are withheld for obvious reasons (contact me)',
     ],
     challenges: [
     ],
@@ -163,6 +162,6 @@ const JAMBAgent: ProjectComponent = () => {
 
 // Add required static properties
 JAMBAgent.title = 'EDU.ai';
-JAMBAgent.description = 'Concept AI Agent that can generate model questions and answers of Nigerian national exams.';
+JAMBAgent.description = 'CBTs on Rails';
 
 export default JAMBAgent;
