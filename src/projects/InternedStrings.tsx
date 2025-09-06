@@ -4,8 +4,8 @@ import type { ProjectComponent } from '../types/project';
 
 const InternedStrings: ProjectComponent = () => {
   const projectData = {
-    title: 'Interned Strings',
-    description: 'Efficient zero dependency interned string system in C',
+    title: 'ISTR',
+    description: 'Efficient, zero deps implementation of interned string system in C. Very similar to microythons qstr system (some parts of the string pooling code were poached from it) but standalone. ',
     technologies: ['C', 'C++', 'Memory Management'],
     status: 'in-progress' as const,
     demoUrl: '',
@@ -15,13 +15,8 @@ const InternedStrings: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time object detection',
-      'Face detection and recognition',
-      'Motion tracking',
-      'Image classification',
-      'Custom model training',
-      'WebRTC video streaming',
-      'Responsive design for all devices'
+      'All logic, zero platform code.',
+      'Open source',
     ],
     challenges: [
     ],
@@ -162,7 +157,7 @@ const InternedStrings: ProjectComponent = () => {
 };
 
 // Add required static properties
-InternedStrings.title = 'Interned Strings';
-InternedStrings.description = 'Efficient zero dependency interned string system in C';
+InternedStrings.title = 'ISTR';
+InternedStrings.description = 'Interned string implementation';
 
 export default InternedStrings;
