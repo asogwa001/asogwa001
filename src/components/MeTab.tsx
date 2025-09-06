@@ -12,7 +12,7 @@ const MeTab = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/yourprofile',
+      url: 'https://www.linkedin.com/in/asogwa-emmanuel-22547319b/',
       color: 'hover:text-blue-600'
     },
     {
@@ -61,7 +61,7 @@ const MeTab = () => {
               I’m a systems engineer specializing in building backend AI systems that are scalable, reliable, and optimized for performance. My focus is on the design, development, and deployment of models, pipelines, and end-to-end ecosystems that power intelligent applications.
             </p>
             <p className="text-slate-700 mb-4">
-              In my free time, I enjoy working on hobby electronics. Building embedded applications that run lightweight machine learning models deepens my understanding of deploying AI in resource-constrained environments and fuels my interest in the intersection of hardware and intelligent systems.
+              In my free time I like to put AI into tiny things. Building embedded applications that run lightweight machine learning models deepens my understanding of deploying AI in resource-constrained environments and fuels my interest in the intersection of hardware and intelligent systems.
             </p>
             <div className="flex items-center text-slate-600 mt-6">
               <Cpu size={20} className="mr-2 text-amber-600" />
@@ -75,7 +75,7 @@ const MeTab = () => {
       <div className="space-y-6">
         {/* Contact Card */}
         <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
-          <h3 className="text-xl font-bold text-slate-800 mb-4">Let's Connect</h3>
+          <h3 className="text-xl font-bold text-slate-800 mb-4">Hire Me?</h3>
           <div className="space-y-3">
             {socialLinks.map((link) => (
               <a
