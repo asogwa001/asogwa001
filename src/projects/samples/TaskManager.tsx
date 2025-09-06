@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github, Calendar, CheckCircle } from 'lucide-react';
-import type { ProjectComponent } from '../types/project';
+import type { ProjectComponent } from '../../types/project';
 
 const TaskManager: ProjectComponent = () => {
   const projectData = {

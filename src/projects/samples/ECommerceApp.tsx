@@ -1,37 +1,42 @@
 import React from 'react';
 import { ExternalLink, Github, Calendar, CheckCircle } from 'lucide-react';
-import type { ProjectComponent } from '../types/project';
+import type { ProjectComponent } from '../../types/project';
 
-const ChatApplication: ProjectComponent = () => {
+const ECommerceApp: ProjectComponent = () => {
   const projectData = {
-    title: 'Real-time Chat Application',
-    description: 'A modern real-time chat application with group messaging, file sharing, and advanced features like message encryption and user presence indicators.',
-    technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB', 'JWT', 'Cloudinary'],
-    status: 'planned' as const,
-    githubUrl: 'https://github.com/yourusername/chat-app',
+    title: 'E-Commerce Platform',
+    description: 'A full-featured e-commerce platform built with React and Node.js, featuring user authentication, product management, shopping cart, and payment integration.',
+    technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'JWT', 'Tailwind CSS'],
+    status: 'completed' as const,
+    demoUrl: 'https://example-ecommerce.com',
+    githubUrl: 'https://github.com/yourusername/ecommerce-app',
+    images: [
+      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ],
     features: [
-      'Real-time messaging with Socket.io',
-      'Group chat and private messaging',
-      'File and image sharing capabilities',
-      'User online/offline status indicators',
-      'Message encryption for privacy',
-      'Emoji reactions and message threading',
-      'Push notifications for new messages'
+      'User registration and authentication',
+      'Product catalog with search and filtering',
+      'Shopping cart and checkout process',
+      'Payment processing with Stripe',
+      'Order management system',
+      'Admin dashboard for product management',
+      'Responsive design for all devices'
     ],
     challenges: [
-      'Implementing end-to-end message encryption',
-      'Managing real-time connections at scale',
-      'Building efficient message search functionality',
-      'Handling file uploads and storage securely'
+      'Implementing secure payment processing',
+      'Building an efficient product search system',
+      'Managing complex state for cart and user data',
+      'Ensuring optimal performance with large product catalogs'
     ],
     learnings: [
-      'WebSocket implementation with Socket.io',
-      'Real-time application scalability patterns',
-      'Message encryption and security best practices',
-      'Building responsive chat interfaces'
+      'Advanced React patterns and state management',
+      'Payment gateway integration best practices',
+      'Database optimization for e-commerce applications',
+      'Security considerations for user data and payments'
     ],
-    startDate: 'April 2024',
-    endDate: 'Planned'
+    startDate: 'January 2024',
+    endDate: 'March 2024'
   };
 
   return (
@@ -80,16 +85,20 @@ const ChatApplication: ProjectComponent = () => {
         )}
       </div>
 
-      {/* Placeholder for planned project */}
-      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 border border-blue-200">
-        <div className="text-center">
-          <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <CheckCircle size={32} className="text-blue-600" />
-          </div>
-          <h3 className="text-xl font-semibold text-blue-800 mb-2">Coming Soon</h3>
-          <p className="text-blue-600">This project is in the planning phase. Check back soon for updates!</p>
+      {/* Project Images */}
+      {projectData.images && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {projectData.images.map((image, index) => (
+            <div key={index} className="rounded-lg overflow-hidden border border-slate-200">
+              <img 
+                src={image} 
+                alt={`${projectData.title} screenshot ${index + 1}`}
+                className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          ))}
         </div>
-      </div>
+      )}
 
       {/* Project Details Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -97,7 +106,7 @@ const ChatApplication: ProjectComponent = () => {
         <div className="space-y-6">
           {/* Technologies */}
           <div className="bg-slate-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">Planned Technologies</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">Technologies Used</h3>
             <div className="flex flex-wrap gap-2">
               {projectData.technologies.map((tech) => (
                 <span key={tech} className="px-3 py-1 bg-white text-slate-700 rounded-full text-sm border border-slate-200">
@@ -120,11 +129,11 @@ const ChatApplication: ProjectComponent = () => {
 
           {/* Features */}
           <div className="bg-slate-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">Planned Features</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">Key Features</h3>
             <ul className="space-y-2">
               {projectData.features?.map((feature, index) => (
                 <li key={index} className="flex items-start gap-2 text-slate-700">
-                  <CheckCircle size={16} className="text-blue-500 mt-0.5 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-500 mt-0.5 flex-shrink-0" />
                   <span>{feature}</span>
                 </li>
               ))}
@@ -136,7 +145,7 @@ const ChatApplication: ProjectComponent = () => {
         <div className="space-y-6">
           {/* Challenges */}
           <div className="bg-slate-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">Expected Challenges</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">Challenges Overcome</h3>
             <ul className="space-y-3">
               {projectData.challenges?.map((challenge, index) => (
                 <li key={index} className="text-slate-700 leading-relaxed">
@@ -148,7 +157,7 @@ const ChatApplication: ProjectComponent = () => {
 
           {/* Learnings */}
           <div className="bg-slate-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">Learning Goals</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">Key Learnings</h3>
             <ul className="space-y-3">
               {projectData.learnings?.map((learning, index) => (
                 <li key={index} className="text-slate-700 leading-relaxed">
@@ -164,7 +173,7 @@ const ChatApplication: ProjectComponent = () => {
 };
 
 // Add required static properties
-ChatApplication.title = 'Real-time Chat Application';
-ChatApplication.description = 'Modern chat app with real-time messaging and file sharing';
+ECommerceApp.title = 'E-Commerce Platform';
+ECommerceApp.description = 'A full-featured e-commerce platform with payment integration';
 
-export default ChatApplication;
+export default ECommerceApp;

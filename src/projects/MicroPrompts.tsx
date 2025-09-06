@@ -143,7 +143,7 @@ const MicroPrompts: ProjectComponent = () => {
           </div>
 
           {/* Timeline */}
-          {projectData.startDate && (
+{/*           {projectData.startDate && (
             <div className="bg-slate-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-slate-800 mb-4">Timeline</h3>
               <div className="flex items-center gap-2 text-slate-600">
@@ -151,7 +151,7 @@ const MicroPrompts: ProjectComponent = () => {
                 <span>{projectData.startDate} - {projectData.endDate}</span>
               </div>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>

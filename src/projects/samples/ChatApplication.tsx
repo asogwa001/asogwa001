@@ -1,41 +1,37 @@
 import React from 'react';
 import { ExternalLink, Github, Calendar, CheckCircle } from 'lucide-react';
-import type { ProjectComponent } from '../types/project';
+import type { ProjectComponent } from '../../types/project';
 
-const WeatherDashboard: ProjectComponent = () => {
+const ChatApplication: ProjectComponent = () => {
   const projectData = {
-    title: 'Weather Dashboard',
-    description: 'A comprehensive weather dashboard with real-time data, forecasts, and interactive maps for multiple locations worldwide.',
-    technologies: ['React', 'JavaScript', 'Chart.js', 'OpenWeather API', 'Geolocation API'],
-    status: 'completed' as const,
-    demoUrl: 'https://example-weather.com',
-    githubUrl: 'https://github.com/yourusername/weather-dashboard',
-    images: [
-      'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800'
-    ],
+    title: 'Real-time Chat Application',
+    description: 'A modern real-time chat application with group messaging, file sharing, and advanced features like message encryption and user presence indicators.',
+    technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB', 'JWT', 'Cloudinary'],
+    status: 'planned' as const,
+    githubUrl: 'https://github.com/yourusername/chat-app',
     features: [
-      'Real-time weather data for any location',
-      '7-day weather forecast with detailed metrics',
-      'Interactive weather maps and radar',
-      'Location-based weather detection',
-      'Weather alerts and notifications',
-      'Historical weather data visualization',
-      'Responsive design with beautiful animations'
+      'Real-time messaging with Socket.io',
+      'Group chat and private messaging',
+      'File and image sharing capabilities',
+      'User online/offline status indicators',
+      'Message encryption for privacy',
+      'Emoji reactions and message threading',
+      'Push notifications for new messages'
     ],
     challenges: [
-      'Handling multiple API integrations and rate limits',
-      'Creating smooth animations for weather transitions',
-      'Implementing accurate geolocation functionality',
-      'Building responsive charts for weather data'
+      'Implementing end-to-end message encryption',
+      'Managing real-time connections at scale',
+      'Building efficient message search functionality',
+      'Handling file uploads and storage securely'
     ],
     learnings: [
-      'Working with external weather APIs',
-      'Data visualization with Chart.js',
-      'Browser geolocation and permissions',
-      'Creating engaging weather-themed animations'
+      'WebSocket implementation with Socket.io',
+      'Real-time application scalability patterns',
+      'Message encryption and security best practices',
+      'Building responsive chat interfaces'
     ],
-    startDate: 'December 2023',
-    endDate: 'January 2024'
+    startDate: 'April 2024',
+    endDate: 'Planned'
   };
 
   return (
@@ -84,20 +80,16 @@ const WeatherDashboard: ProjectComponent = () => {
         )}
       </div>
 
-      {/* Project Images */}
-      {projectData.images && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {projectData.images.map((image, index) => (
-            <div key={index} className="rounded-lg overflow-hidden border border-slate-200">
-              <img 
-                src={image} 
-                alt={`${projectData.title} screenshot ${index + 1}`}
-                className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-          ))}
+      {/* Placeholder for planned project */}
+      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 border border-blue-200">
+        <div className="text-center">
+          <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <CheckCircle size={32} className="text-blue-600" />
+          </div>
+          <h3 className="text-xl font-semibold text-blue-800 mb-2">Coming Soon</h3>
+          <p className="text-blue-600">This project is in the planning phase. Check back soon for updates!</p>
         </div>
-      )}
+      </div>
 
       {/* Project Details Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -105,7 +97,7 @@ const WeatherDashboard: ProjectComponent = () => {
         <div className="space-y-6">
           {/* Technologies */}
           <div className="bg-slate-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">Technologies Used</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">Planned Technologies</h3>
             <div className="flex flex-wrap gap-2">
               {projectData.technologies.map((tech) => (
                 <span key={tech} className="px-3 py-1 bg-white text-slate-700 rounded-full text-sm border border-slate-200">
@@ -128,11 +120,11 @@ const WeatherDashboard: ProjectComponent = () => {
 
           {/* Features */}
           <div className="bg-slate-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">Key Features</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">Planned Features</h3>
             <ul className="space-y-2">
               {projectData.features?.map((feature, index) => (
                 <li key={index} className="flex items-start gap-2 text-slate-700">
-                  <CheckCircle size={16} className="text-green-500 mt-0.5 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-blue-500 mt-0.5 flex-shrink-0" />
                   <span>{feature}</span>
                 </li>
               ))}
@@ -144,7 +136,7 @@ const WeatherDashboard: ProjectComponent = () => {
         <div className="space-y-6">
           {/* Challenges */}
           <div className="bg-slate-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">Challenges Overcome</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">Expected Challenges</h3>
             <ul className="space-y-3">
               {projectData.challenges?.map((challenge, index) => (
                 <li key={index} className="text-slate-700 leading-relaxed">
@@ -156,7 +148,7 @@ const WeatherDashboard: ProjectComponent = () => {
 
           {/* Learnings */}
           <div className="bg-slate-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">Key Learnings</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">Learning Goals</h3>
             <ul className="space-y-3">
               {projectData.learnings?.map((learning, index) => (
                 <li key={index} className="text-slate-700 leading-relaxed">
@@ -172,7 +164,7 @@ const WeatherDashboard: ProjectComponent = () => {
 };
 
 // Add required static properties
-WeatherDashboard.title = 'Weather Dashboard';
-WeatherDashboard.description = 'Comprehensive weather dashboard with real-time data and forecasts';
+ChatApplication.title = 'Real-time Chat Application';
+ChatApplication.description = 'Modern chat app with real-time messaging and file sharing';
 
-export default WeatherDashboard;
+export default ChatApplication;

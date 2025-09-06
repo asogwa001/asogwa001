@@ -4,9 +4,9 @@ import type { ProjectComponent } from '../types/project';
 
 const AutomatedEcgProcessing: ProjectComponent = () => {
   const projectData = {
-    title: 'Automated ECG Processing',
-    description: 'A web application for real-time ECG signal acquisition and processing and analysis.',
-    technologies: ['React', 'TensorFlow.js', 'WebRTC'],
+    title: 'Wearable 1',
+    description: 'Protype of an IoT powered wearable for ECG acquisition, processing and classification using support vectors and nearest neighbours machine learning algorithms.',
+    technologies: ['Machine Learning', 'TensorFlow.js', 'WebRTC'],
     status: 'in-progress' as const,
     demoUrl: '',
     githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
@@ -15,13 +15,10 @@ const AutomatedEcgProcessing: ProjectComponent = () => {
       'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Real-time object detection',
-      'Face detection and recognition',
-      'Motion tracking',
-      'Image classification',
-      'Custom model training',
-      'WebRTC video streaming',
-      'Responsive design for all devices'
+      'Single channel ECG at 125Hz',
+      'Implemented on an ESP32 with AD8232',
+      'Includes analysis and visualization dashboard',
+      'Open source'
     ],
     challenges: [
     ],
@@ -136,7 +133,7 @@ const AutomatedEcgProcessing: ProjectComponent = () => {
           </div>
 
           {/* Timeline */}
-          {projectData.startDate && (
+{/*           {projectData.startDate && (
             <div className="bg-slate-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-slate-800 mb-4">Timeline</h3>
               <div className="flex items-center gap-2 text-slate-600">
@@ -144,7 +141,7 @@ const AutomatedEcgProcessing: ProjectComponent = () => {
                 <span>{projectData.startDate} - {projectData.endDate}</span>
               </div>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>
@@ -152,7 +149,7 @@ const AutomatedEcgProcessing: ProjectComponent = () => {
 };
 
 // Add required static properties
-AutomatedEcgProcessing.title = 'Automated ECG Processing';
-AutomatedEcgProcessing.description = 'A real-time ECG processing application using machine learning and React.';
+AutomatedEcgProcessing.title = 'Wearable 1';
+AutomatedEcgProcessing.description = 'ECG Acquisition, processing and classification';
 
 export default AutomatedEcgProcessing;

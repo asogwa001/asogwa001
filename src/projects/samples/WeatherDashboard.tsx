@@ -1,42 +1,41 @@
 import React from 'react';
 import { ExternalLink, Github, Calendar, CheckCircle } from 'lucide-react';
-import type { ProjectComponent } from '../types/project';
+import type { ProjectComponent } from '../../types/project';
 
-const ECommerceApp: ProjectComponent = () => {
+const WeatherDashboard: ProjectComponent = () => {
   const projectData = {
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform built with React and Node.js, featuring user authentication, product management, shopping cart, and payment integration.',
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'JWT', 'Tailwind CSS'],
+    title: 'Weather Dashboard',
+    description: 'A comprehensive weather dashboard with real-time data, forecasts, and interactive maps for multiple locations worldwide.',
+    technologies: ['React', 'JavaScript', 'Chart.js', 'OpenWeather API', 'Geolocation API'],
     status: 'completed' as const,
-    demoUrl: 'https://example-ecommerce.com',
-    githubUrl: 'https://github.com/yourusername/ecommerce-app',
+    demoUrl: 'https://example-weather.com',
+    githubUrl: 'https://github.com/yourusername/weather-dashboard',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'User registration and authentication',
-      'Product catalog with search and filtering',
-      'Shopping cart and checkout process',
-      'Payment processing with Stripe',
-      'Order management system',
-      'Admin dashboard for product management',
-      'Responsive design for all devices'
+      'Real-time weather data for any location',
+      '7-day weather forecast with detailed metrics',
+      'Interactive weather maps and radar',
+      'Location-based weather detection',
+      'Weather alerts and notifications',
+      'Historical weather data visualization',
+      'Responsive design with beautiful animations'
     ],
     challenges: [
-      'Implementing secure payment processing',
-      'Building an efficient product search system',
-      'Managing complex state for cart and user data',
-      'Ensuring optimal performance with large product catalogs'
+      'Handling multiple API integrations and rate limits',
+      'Creating smooth animations for weather transitions',
+      'Implementing accurate geolocation functionality',
+      'Building responsive charts for weather data'
     ],
     learnings: [
-      'Advanced React patterns and state management',
-      'Payment gateway integration best practices',
-      'Database optimization for e-commerce applications',
-      'Security considerations for user data and payments'
+      'Working with external weather APIs',
+      'Data visualization with Chart.js',
+      'Browser geolocation and permissions',
+      'Creating engaging weather-themed animations'
     ],
-    startDate: 'January 2024',
-    endDate: 'March 2024'
+    startDate: 'December 2023',
+    endDate: 'January 2024'
   };
 
   return (
@@ -173,7 +172,7 @@ const ECommerceApp: ProjectComponent = () => {
 };
 
 // Add required static properties
-ECommerceApp.title = 'E-Commerce Platform';
-ECommerceApp.description = 'A full-featured e-commerce platform with payment integration';
+WeatherDashboard.title = 'Weather Dashboard';
+WeatherDashboard.description = 'Comprehensive weather dashboard with real-time data and forecasts';
 
-export default ECommerceApp;
+export default WeatherDashboard;
