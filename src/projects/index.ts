@@ -8,13 +8,16 @@ import uCoreOS from './uCoreOS'
 import YOLO11Cam from './YOLO11Cam';
 import CtcController from './CtcController';
 import EnergyUsageProfiler from './EnergyUsageProfiler';
-import AutomatedEcgProcessing from './AutomatedEcgProcessing';
+import AutomatedEcgProcessing from './EcgProcessing';
 import WirelessLocalization from './WirelessLocalization';
 import WorkshopDigitalTwin from './WorkshopDigitalTwin';
 import MicroPrompts from './MicroPrompts';
 import InternedStrings from './InternedStrings';
-import JAMBAgent from './JAMBAgent';
+import JAMBAgent from './EDU.ai';
 import GeoGenerator from './GeoGenerator';
+import RFMTool from './RFMTool';
+import SmartBPM from './SSPHY';
+import HealthMetrics from './HealthMetrics';
 // Export all projects in a single object
 // This makes it easy to add new projects - just import above and add to this object
 export const projects = {
@@ -23,10 +26,17 @@ export const projects = {
   'jamb-ai-agent': JAMBAgent,
   'yolo-v11-camera': YOLO11Cam,
   'ctc-controller': CtcController,
+
   'energy-usage-profiler': EnergyUsageProfiler,
-  'automated-ecg-processing': AutomatedEcgProcessing,
-  'wireless-localization': WirelessLocalization,
   'workshop-digital-twin': WorkshopDigitalTwin,
+  'rfm-analysis-tool': RFMTool,
+
+  'automated-ecg-processing': AutomatedEcgProcessing,
+  //'health-metrics': HealthMetrics,
+  'wireless-localization': WirelessLocalization,
+
+  'smart-bp-component': SmartBPM,
+  
   'micro-prompts': MicroPrompts,
   'interned-strings': InternedStrings,
   // 'ecommerce-app': ECommerceApp,
