@@ -7,12 +7,14 @@ const EnergyUsageProfiler: ProjectComponent = () => {
     title: 'Anomaly Detection 1',
     description: 'Uses a hybrid machine learning model (CNN + {RF, LSTM, SVM}) to analyse household electricity usage and flag anomalies. CNN is used as a feature extractor while the downstream model does the classification.',
     technologies: ['Deep Learning', 'Machine Learning', 'Analytics', 'Data science'],
-    status: 'in-progress' as const,
-    demoUrl: '#',
-    githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
+    status: 'completed' as const,
+    demoUrl: 'https://asogwa001.github.io/energy_profiles/',
+    githubUrl: 'https://github.com/asogwa001/energy_profiles',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      "public/assets/energy_1.png",
+      "public/assets/energy_2.png",
+      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
       'Trained on Low Carbon London project (UKPN Innovation, 2010) dataset',
