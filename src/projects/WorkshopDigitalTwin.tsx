@@ -11,13 +11,15 @@ const WorkshopDigitalTwin: ProjectComponent = () => {
     demoUrl: '',
     githubUrl: '',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      "public/assets/twin_1.png",
+      "public/assets/twin_2.png",
+      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
-      'Source is proprietary',
       'Model can be made available on request',
-      'Grafana-based analytical dashboard for KPIs'
+      'Grafana-based analytical dashboard for KPIs',
+      'Source is proprietary (may be available on request)',
     ],
     challenges: [
     ],
