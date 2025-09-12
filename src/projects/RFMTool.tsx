@@ -12,10 +12,8 @@ const RFMTool: ProjectComponent = () => {
     githubUrl: 'https://drive.google.com/drive/folders/18f3nUoWFyuurf8Hor4DUDeFpYRzH6Ozn?usp=drive_link',
     images: [
       "/assets/project_imgs/RFMTool_1.png",
-      "/assets/project_imgs/RFMTool_2.png",
-      //"/assets/RFMTool_2.png",
-      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      `${import.meta.env.BASE_URL}assets/project_imgs/RFMTool_1.png`,
+      `${import.meta.env.BASE_URL}assets/project_imgs/RFMTool_2.png`,
     ],
     features: [
       'Input dataset format: .csv and .xlsx',

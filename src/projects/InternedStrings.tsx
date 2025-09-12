@@ -11,10 +11,8 @@ const InternedStrings: ProjectComponent = () => {
     demoUrl: '',
     githubUrl: '',
     images: [
-      "/assets/project_imgs/istr_1.png",
-      "/assets/project_imgs/istr_2.png",
-      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      `${import.meta.env.BASE_URL}assets/project_imgs/istr_1.png`,
+      `${import.meta.env.BASE_URL}assets/project_imgs/istr_2.png`,
     ],
     features: [
       'All logic, zero platform code.',

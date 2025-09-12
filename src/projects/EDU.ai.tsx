@@ -11,10 +11,8 @@ const JAMBAgent: ProjectComponent = () => {
     demoUrl: 'https://asogwa001.github.io/llm.ui/',
     githubUrl: '',
     images: [
-      "/assets/project_imgs/edu.ai_1.png",
-      "/assets/project_imgs/edu.ai_2.png",
-      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      `${import.meta.env.BASE_URL}assets/project_imgs/edu.ai_1.png`,
+      `${import.meta.env.BASE_URL}assets/project_imgs/edu.ai_2.png`,
     ],
     features: [
       'Plug and play: just redirect your llm ui to my chat completions',

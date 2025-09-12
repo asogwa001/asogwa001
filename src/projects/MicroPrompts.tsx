@@ -11,13 +11,8 @@ const MicroPrompts: ProjectComponent = () => {
     demoUrl: '',
     githubUrl: '#',
     images: [
-      //"/public/prompts_1.png",
-      //"/public/assets/prompts_1.png",
-      //"C:\Users\asogw\Documents\venv\asogwa001\public\assets\project_imgs",
-      "/assets/project_imgs/prompts_1.png",
-      "/assets/project_imgs/prompts_2.png",
-      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      `${import.meta.env.BASE_URL}assets/project_imgs/prompts_1.png`,
+      `${import.meta.env.BASE_URL}assets/project_imgs/prompts_2.png`,
     ],
     features: [
       'Platform independent (mostly)',

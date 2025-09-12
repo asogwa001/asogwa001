@@ -10,9 +10,7 @@ const HealthMetrics: ProjectComponent = () => {
     status: 'completed' as const,
     demoUrl: '',
     githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
-    images: [
-      "/assets/project_imgs/health_metrics_1.png",
-      "/assets/project_imgs/health_metrics_2.png",  
+    images: [  
       //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
