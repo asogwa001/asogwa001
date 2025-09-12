@@ -9,10 +9,12 @@ const YOLO11Cam: ProjectComponent = () => {
     technologies: ['YOLOv11', 'Computer Vision', 'Google Gemma', 'VLMs', 'Finetuning', 'Analytics'],
     status: 'completed' as const,
     demoUrl: '',
-    githubUrl: '',
+    githubUrl: 'https://github.com/asogwa001/yolo11-cam',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      "public/assets/yolo_1.png",
+      "public/assets/yolo_2.png",  
+      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
       'Tested on pi-5', 
