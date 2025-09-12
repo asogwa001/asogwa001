@@ -6,13 +6,15 @@ const MicroPrompts: ProjectComponent = () => {
   const projectData = {
     title: 'Micro Prompts',
     description: 'Implements openais chat completions and googles gemini api and can also handle files (video, audio, etc) if you have a large flash budget. Install from the Arduino library.',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
+    technologies: ['C', 'LLM Prompting', 'Embedded Ssytems', 'Microcontrollers', 'Arduino Framework', 'ESP-IDF'],
     status: 'completed' as const,
     demoUrl: '',
     githubUrl: '#',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      "public/assets/prompts_1.png",
+      "public/assets/prompts_2.png",
+      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
       'Platform independent (mostly)',
