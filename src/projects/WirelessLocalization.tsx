@@ -11,8 +11,8 @@ const WirelessLocalization: ProjectComponent = () => {
     demoUrl: '',
     githubUrl: 'https://github.com/dmachinewhisperer/wireless_localization2',
     images: [
-      "public/assets/project_imgs/wireless_1.png",
-      "public/assets/project_imgs/wireless_2.png",
+      "/assets/project_imgs/wireless_1.png",
+      "/assets/project_imgs/wireless_2.png",
       //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],

@@ -11,8 +11,8 @@ const CtcController: ProjectComponent = () => {
     demoUrl: '',
     githubUrl: 'https://github.com/asogwa001/computed_torque',
     images: [
-      "public/assets/project_imgs/robot_1.png",
-      "public/assets/project_imgs/robot_2.png",      
+      "/assets/project_imgs/robot_1.png",
+      "/assets/project_imgs/robot_2.png",      
       //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],

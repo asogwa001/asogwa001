@@ -11,10 +11,10 @@ const SmartBPM: ProjectComponent = () => {
     demoUrl: '',
     githubUrl: 'https://drive.google.com/drive/folders/1OjvUDeLCtRupP2ngtqEyCILDGUt5UxXm?usp=sharing',
     images: [
-      "public/assets/project_imgs/ssphy_1.png",
-      "public/assets/project_imgs/ssphy_2.png",
-      "public/assets/project_imgs/ssphy_3.jpg", 
-      "public/assets/project_imgs/ssphy_4.jpg", 
+      "/assets/project_imgs/ssphy_1.png",
+      "/assets/project_imgs/ssphy_2.png",
+      "/assets/project_imgs/ssphy_3.jpg", 
+      "/assets/project_imgs/ssphy_4.jpg", 
       //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
