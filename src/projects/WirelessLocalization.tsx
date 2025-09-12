@@ -9,15 +9,18 @@ const WirelessLocalization: ProjectComponent = () => {
     technologies: ['Indoor Positioning', 'Embedded systems', 'RSSI Fingerprinting', 'Internet of Things'],
     status: 'completed' as const,
     demoUrl: '',
-    githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
+    githubUrl: 'https://github.com/dmachinewhisperer/wireless_localization2',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      "public/assets/wireless_1.png",
+      "public/assets/wireless_2.png",
+      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
       'Includes a tool for calibrating the deployment area and firmware for bootstrapping the system on an ESP32. ',
       'See more details in my publication in IEEE Xplore',
       'Can achieve room level accuracy in typical indoor environments',
+      'Published on Xplore: (paper id: 10677241)',
       'Open source'
     ],
     challenges: [
