@@ -47,7 +47,7 @@ const MeTab = () => {
                 <span>Enugu, Nigeria</span>
               </div>
               <p className="text-slate-700 leading-relaxed">
-                Building backend systems for artificial intelligence powered applications.
+                Building backend systems for intelligent applications.
               </p>
             </div>
           </div>
@@ -58,16 +58,15 @@ const MeTab = () => {
           <h3 className="text-2xl font-bold text-slate-800 mb-4">About Me</h3>
           <div className="prose prose-slate max-w-none">
             <p className="text-slate-700 mb-4">
-              I’m a systems engineer specializing in building backend AI systems that are scalable, reliable, and optimized for performance. My focus is on the design, development, and deployment of models, pipelines, and end-to-end ecosystems that power intelligent applications.
+              I'm a systems engineer and like putting AI into things; small things, big things, anything really. My specialty is in backends that power intelligence. Some of the areas I have worked in include business intelligence, edtech, distributed infrastructure, and embedded systems. I develop custom AI models and build end-to-end pipelines to integrate them into applications.
+
             </p>
             <p className="text-slate-700 mb-4">
-              In my free time I like to put AI into tiny things. I like testing lightweight models in resource contrained platforms.  
-              {/* Building embedded applications that run lightweight machine learning models deepens my understanding of deploying AI in resource-constrained environments and fuels my interest in the intersection of hardware and intelligent systems. */}
+              Most of my free time goes into writing low-level code that does amazing things, and testing lightweight models on embedded systems. Right now, I'm building a Jupyter kernel for microcontrollers.
             </p>
-            <div className="flex items-center text-slate-600 mt-6">
+{/*             <div className="flex items-center text-slate-600 mt-6">
               <Cpu size={20} className="mr-2 text-amber-600" />
-              {/* <span className="italic">Fueled by coffee and curiosity</span> */}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
