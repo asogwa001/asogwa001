@@ -5,14 +5,16 @@ import type { ProjectComponent } from '../types/project';
 const CtcController: ProjectComponent = () => {
   const projectData = {
     title: 'Computed Torque Controller',
-    description: 'Simscape Multibody model of a two loop computed torque controller that drives a two-link planar flexible underactuated robot manipulator in cartesian space. The outer loop computes the requires link torques while the translates the link torques into desired motor motor positions (both loops use PD control law)  ',
+    description: 'Simscape Multibody model of a two loop computed torque controller that drives a two-link planar flexible underactuated robot manipulator in cartesian space. The outer loop computes the requires link torques while the translates the link torques into desired motor motor positions (both loops use PD control)  ',
     technologies: ['Robotics', 'Manipulator', '.mlapp', 'Simscape Multibody', 'MATLAB', 'Simulink'],
-    status: 'in-progress' as const,
-    demoUrl: '#',
-    githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
+    status: 'completed' as const,
+    demoUrl: '',
+    githubUrl: 'https://github.com/asogwa001/computed_torque',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      "public/assets/robot_1.png",
+      "public/assets/robot_2.png",      
+      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
       'Written in Simulink and MATLAB',
