@@ -7,12 +7,14 @@ const InternedStrings: ProjectComponent = () => {
     title: 'ISTR',
     description: 'Efficient, zero deps implementation of interned string I use in my embedded projects. Very similar to microythons qstr system (some parts of the string pooling code were poached from it actually) but standalone. ',
     technologies: ['C', 'Interned Strings', 'Embedded Systems'],
-    status: 'in-progress' as const,
+    status: 'completed' as const,
     demoUrl: '',
     githubUrl: '',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      "public/assets/istr_6.png",
+      "public/assets/istr_5.png",
+      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
       'All logic, zero platform code.',
