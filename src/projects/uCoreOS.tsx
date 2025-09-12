@@ -9,17 +9,19 @@ const uCoreOS: ProjectComponent = () => {
     technologies: ['C', 'Embedded Systems', 'Micropython Project', 'Kernels', 'Jupter Notebooks'],
     status: 'in-progress' as const,
     demoUrl: '',
-    githubUrl: 'https://github.com/yourusername/yolo-v11-camera',
+    githubUrl: 'https://github.com/dmachinewhisperer/upip',
     images: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
+      "public/assets/ucore_1.png",
+      "public/assets/ucore_2.png",
+      //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     features: [
       'Extremely lightweight',
       'Supported chips: ESP32, STM32',
       'Runs locally and can be cloud hosted',
       '80%+ jupyter messaging protocol coverage',
-      'Some components of the project are fully open source'
+      'Some components of the project are open source (upip, jmpbin)'
     ],
     challenges: [
     ],
