@@ -11,8 +11,8 @@ const RFMTool: ProjectComponent = () => {
     demoUrl: '',
     githubUrl: 'https://drive.google.com/drive/folders/18f3nUoWFyuurf8Hor4DUDeFpYRzH6Ozn?usp=drive_link',
     images: [
-      "public/assets/RFMTool_1.png",
-      "public/assets/RFMTool_2.png",
+      "public/assets/project_imgs/RFMTool_1.png",
+      "public/assets/project_imgs/RFMTool_2.png",
       //"/assets/RFMTool_2.png",
       //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'

@@ -11,8 +11,8 @@ const InternedStrings: ProjectComponent = () => {
     demoUrl: '',
     githubUrl: '',
     images: [
-      "public/assets/istr_6.png",
-      "public/assets/istr_5.png",
+      "public/assets/project_imgs/istr_1.png",
+      "public/assets/project_imgs/istr_2.png",
       //'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       //'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
