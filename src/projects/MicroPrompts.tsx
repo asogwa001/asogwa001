@@ -9,7 +9,7 @@ const MicroPrompts: ProjectComponent = () => {
     technologies: ['C', 'LLM Prompting', 'Embedded Ssytems', 'Microcontrollers', 'Arduino Framework', 'ESP-IDF'],
     status: 'completed' as const,
     demoUrl: '',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/dmachinewhisperer/micro-prompts',
     images: [
       `${import.meta.env.BASE_URL}assets/project_imgs/prompts_1.png`,
       `${import.meta.env.BASE_URL}assets/project_imgs/prompts_2.png`,

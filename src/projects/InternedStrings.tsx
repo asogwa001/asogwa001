@@ -9,7 +9,7 @@ const InternedStrings: ProjectComponent = () => {
     technologies: ['C', 'Interned Strings', 'Embedded Systems'],
     status: 'completed' as const,
     demoUrl: '',
-    githubUrl: '',
+    githubUrl: 'https://github.com/dmachinewhisperer/istr',
     images: [
       `${import.meta.env.BASE_URL}assets/project_imgs/istr_1.png`,
       `${import.meta.env.BASE_URL}assets/project_imgs/istr_2.png`,
