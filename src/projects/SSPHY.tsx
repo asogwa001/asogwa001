@@ -13,8 +13,8 @@ const SmartBPM: ProjectComponent = () => {
     images: [
       `${import.meta.env.BASE_URL}assets/project_imgs/ssphy_1.png`,
       `${import.meta.env.BASE_URL}assets/project_imgs/ssphy_2.png`,
-      `${import.meta.env.BASE_URL}assets/project_imgs/ssphy_3.png`,
-      `${import.meta.env.BASE_URL}assets/project_imgs/ssphy_4.png`,      
+      `${import.meta.env.BASE_URL}assets/project_imgs/ssphy_3.jpg`,
+      `${import.meta.env.BASE_URL}assets/project_imgs/ssphy_4.jpg`,      
     ],
     features: [
       'Based on the ESP32 microcontroller',
