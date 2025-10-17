@@ -6,7 +6,7 @@ const JAMBAgent: ProjectComponent = () => {
   const projectData = {
     title: 'EDU.ai',
     description: 'Can regurgitate past questions with solutions and generate model questions and answers of various Nigerian national exams. It really is just a chat completions endpoint enhanced with function calling access to my MCP server that can do semantic search over a 100k+ past questions dataset (waec, neco, jamb) I found on the internet (thank you vibecoders).',
-    technologies: ['onnx', 'TensorFlow.js', 'Chat Completions', 'LLMs', 'Model Context Protocol', 'FAISS'],
+    technologies: ['onnx', 'sentence-transformers', 'Chat Completions', 'LLMs', 'Model Context Protocol', 'FAISS'],
     status: 'completed' as const,
     demoUrl: 'https://asogwa001.github.io/llm.ui/',
     githubUrl: '',
