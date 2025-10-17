@@ -18,11 +18,13 @@ import GeoGenerator from './GeoGenerator';
 import RFMTool from './RFMTool';
 import SmartBPM from './SSPHY';
 import HealthMetrics from './HealthMetrics';
+import TalkingPapers from './TalkingPapers';
 // Export all projects in a single object
 // This makes it easy to add new projects - just import above and add to this object
 export const projects = {
   'ucore-os': uCoreOS,
-  'geo-generator': GeoGenerator,
+  'talking-papers': TalkingPapers,
+  //'geo-generator': GeoGenerator,
   'jamb-ai-agent': JAMBAgent,
   'yolo-v11-camera': YOLO11Cam,
   'ctc-controller': CtcController,
