@@ -44,7 +44,7 @@ const MeTab = () => {
               <p className="text-lg text-slate-600 mb-4">Systems Engineer</p>
               <div className="flex items-center text-slate-500 mb-4">
                 <MapPin size={16} className="mr-2" />
-                <span>Enugu, Nigeria</span>
+                <span>Lagos, Nigeria</span>
               </div>
               <p className="text-slate-700 leading-relaxed">
                 Building backend systems for intelligent applications.
