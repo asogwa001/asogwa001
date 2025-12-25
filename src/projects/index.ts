@@ -19,6 +19,7 @@ import RFMTool from './RFMTool';
 import SmartBPM from './SSPHY';
 import HealthMetrics from './HealthMetrics';
 import TalkingPapers from './TalkingPapers';
+import dubStack from './dubstack';
 // Export all projects in a single object
 // This makes it easy to add new projects - just import above and add to this object
 export const projects = {
@@ -28,6 +29,7 @@ export const projects = {
   'jamb-ai-agent': JAMBAgent,
   'yolo-v11-camera': YOLO11Cam,
   'ctc-controller': CtcController,
+  'dub-stack': dubStack,
 
   'energy-usage-profiler': EnergyUsageProfiler,
   'workshop-digital-twin': WorkshopDigitalTwin,
