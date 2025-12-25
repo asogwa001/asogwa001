@@ -8,7 +8,7 @@ const dubStack: ProjectComponent = () => {
     description: 'Dubstack is a small, local-first webapp for dubbing gameplay parkour videos (or any video for that matter). ',
     technologies: ['Python', 'TTS', 'ASR', 'Hugging face', 'Local transformer models'],
     status: 'completed' as const,
-    demoUrl: 'https://github.com/asogwa001/dubstack',
+    demoUrl: 'https://github.com/asogwa001/dubstack/blob/master/videos/demo.mp4',
     githubUrl: 'https://github.com/asogwa001/dubstack',
     images: [
       `${import.meta.env.BASE_URL}assets/project_imgs/dubstack_1.png`,
