@@ -5,10 +5,10 @@ import type { ProjectComponent } from '../types/project';
 const dubStack: ProjectComponent = () => {
   const projectData = {
     title: 'DubStack',
-    description: 'Dubstack is a small, local-first webapp for dubbing gameplay parkour videos (or any video for that matter). ',
-    technologies: ['Python', 'TTS', 'ASR', 'Hugging face', 'Local transformer models'],
+    description: 'Dubstack is a browser-based web app for dubbing gameplay videos (or any video, for that matter). All models and the FFmpeg runtime run in the browser via WebAssembly',
+    technologies: ['Python', 'TTS', 'ASR', 'Hugging face', 'WebAssembly'],
     status: 'completed' as const,
-    demoUrl: 'https://github.com/asogwa001/dubstack/blob/master/videos/demo.mp4',
+    demoUrl: 'https://asogwa001.github.io/dubstack/',
     githubUrl: 'https://github.com/asogwa001/dubstack',
     images: [
       `${import.meta.env.BASE_URL}assets/project_imgs/dubstack_1.png`,
@@ -18,8 +18,7 @@ const dubStack: ProjectComponent = () => {
       'Uses only local TTS models',
       'Supports voice cloning and subtitle styling',
       'Lightweight and very fast even on CPUs',
-      'Models supported includes: supertonic 66m, kokoro 82m, chatterbox 500m',
-      'Some components of the project are open source (upip, jmpbin)'
+      'Models supported includes: supertonic 66m, kokoro 82m, chatterbox 500m'
     ],
     challenges: [
     ],
@@ -151,6 +150,6 @@ const dubStack: ProjectComponent = () => {
 
 // Add required static properties
 dubStack.title = 'DubStack';
-dubStack.description = 'Brainrot-style content';
+dubStack.description = 'Local dubbing';
 
 export default dubStack;
