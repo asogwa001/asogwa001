@@ -4,7 +4,7 @@ import type { ProjectComponent } from '../types/project';
 
 const NGScout: ProjectComponent = () => {
   const projectData = {
-    title: 'NGScount',
+    title: 'NGScout',
     description: 'AI Agent that uses a web crawler to scan Nigerian job boards, filters listings with AI, and delivers personalized job alerts to users based on their preferences. Available as a telegram bot and web app',
     technologies: ['Automation', 'Transformers', 'Web Crawling/Scraping', 'Bot Development', 'Telegram', 'Vector Search'],
     status: 'completed' as const,
