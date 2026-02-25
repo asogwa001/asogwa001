@@ -4,21 +4,22 @@ import type { ProjectComponent } from '../types/project';
 
 const NGJobScout: ProjectComponent = () => {
   const projectData = {
-    title: 'NGJobScout',
-    description: 'Telegram bot that uses an aggressive web crawler to scan Nigerian job boards, filters listings with AI, and delivers personalized job alerts to users based on their preferences.',
+    title: 'NGScount',
+    description: 'AI Agent that uses a web crawler to scan Nigerian job boards, filters listings with AI, and delivers personalized job alerts to users based on their preferences. Available as a telegram bot and web app',
     technologies: ['Automation', 'Transformers', 'Web Crawling/Scraping', 'Bot Development', 'Telegram', 'Vector Search'],
     status: 'completed' as const,
-    demoUrl: 'https://web.telegram.org/k/#@ngscoutbot',
+    demoUrl: 'http://ngscout.tooling.com.ng',
     githubUrl: 'https://github.com/asogwa001/ngjobscout',
     images: [
       `${import.meta.env.BASE_URL}assets/project_imgs/ngjobscout_1.png`,
       `${import.meta.env.BASE_URL}assets/project_imgs/ngjobscout_2.png`,
     ],
     features: [
-      'Post stream (linear in time), filtered using user prompt',
-      'Filtering is done using embeddings (cosine similarity)',
+      'Linear post stream, filtered using user supplied prompt',
+      'Supports hybrid search and reranking using cross encoder.',
       'User can customize the type of job alerts delivered to them ',
       'Supports search across the multiple job boards it crawls',
+      'Can deliver notifications asynchronously via webhooks'
     ],
     challenges: [
     ],
@@ -160,6 +161,6 @@ const NGJobScout: ProjectComponent = () => {
 
 // Add required static properties
 NGJobScout.title = 'NGJobScout';
-NGJobScout.description = 'AI bot that works for you';
+NGJobScout.description = 'AI that works for you';
 
 export default NGJobScout;
