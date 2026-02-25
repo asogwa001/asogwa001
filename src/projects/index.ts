@@ -20,12 +20,12 @@ import SmartBPM from './SSPHY';
 import HealthMetrics from './HealthMetrics';
 import TalkingPapers from './TalkingPapers';
 import dubStack from './dubstack';
-import NGJobScout from './NGjobscout';
+import NGScout from './NGScout';
 // Export all projects in a single object
 // This makes it easy to add new projects - just import above and add to this object
 export const projects = {
   'ucore-os': uCoreOS,
-  'ng-job-scout': NGJobScout,
+  'ng-scout': NGScout,
   'talking-papers': TalkingPapers,
   //'geo-generator': GeoGenerator,
   'jamb-ai-agent': JAMBAgent,

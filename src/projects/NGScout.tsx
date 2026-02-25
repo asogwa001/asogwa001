@@ -2,14 +2,14 @@ import React from 'react';
 import { ExternalLink, Github, Calendar, CheckCircle } from 'lucide-react';
 import type { ProjectComponent } from '../types/project';
 
-const NGJobScout: ProjectComponent = () => {
+const NGScout: ProjectComponent = () => {
   const projectData = {
     title: 'NGScount',
     description: 'AI Agent that uses a web crawler to scan Nigerian job boards, filters listings with AI, and delivers personalized job alerts to users based on their preferences. Available as a telegram bot and web app',
     technologies: ['Automation', 'Transformers', 'Web Crawling/Scraping', 'Bot Development', 'Telegram', 'Vector Search'],
     status: 'completed' as const,
     demoUrl: 'http://ngscout.tooling.com.ng',
-    githubUrl: 'https://github.com/asogwa001/ngjobscout',
+    githubUrl: 'https://github.com/asogwa001/NGScout',
     images: [
       `${import.meta.env.BASE_URL}assets/project_imgs/ngjobscout_1.png`,
       `${import.meta.env.BASE_URL}assets/project_imgs/ngjobscout_2.png`,
@@ -160,7 +160,7 @@ const NGJobScout: ProjectComponent = () => {
 };
 
 // Add required static properties
-NGJobScout.title = 'NGJobScout';
-NGJobScout.description = 'AI that works for you';
+NGScout.title = 'NGScout';
+NGScout.description = 'AI that works for you';
 
-export default NGJobScout;
+export default NGScout;
